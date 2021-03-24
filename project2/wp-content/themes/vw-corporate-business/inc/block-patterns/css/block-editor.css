@@ -1,0 +1,57 @@
+/*slider section*/
+.sliderbox h1{
+  font-family: 'Raleway', sans-serif !important;
+  letter-spacing: 1px;
+  font-size: 30px !important;
+}
+.sliderbox p.block-editor-rich-text__editable.text-center.block-editor-block-list__block.wp-block,
+.about-box p.block-editor-rich-text__editable.block-editor-block-list__block.wp-block,.about-content h2.block-editor-rich-text__editable.block-editor-block-list__block.wp-block, 
+.sliderbox .block-editor-rich-text__editable.wp-block-button__link,
+.about-content .block-editor-rich-text__editable.wp-block-button__link{
+  font-family: 'Raleway', sans-serif !important;
+}
+.sliderbox .block-editor-block-list__block,
+.about-box .block-editor-block-list__block{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important
+}
+.sliderbox p.block-editor-rich-text__editable.text-center.block-editor-block-list__block.wp-block,
+.about-box p.block-editor-rich-text__editable.block-editor-block-list__block.wp-block{
+  margin-bottom: 0 !important
+}
+.sliderbox .block-editor-rich-text__editable.wp-block-button__link, 
+.about-box .block-editor-rich-text__editable.wp-block-button__link{
+  padding: 15px 20px;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border:none;
+  color: #fff !important;
+}
+.sliderbox .block-editor-rich-text__editable.wp-block-button__link:hover, .about-content .block-editor-rich-text__editable.wp-block-button__link:hover {
+  background: #000 !important;
+}
+/*about section*/
+.about-content h2:before{
+  content: "";
+  border-left: solid 5px #000;
+  padding-left: 15px;
+}
+.about-content h2.block-editor-rich-text__editable.block-editor-block-list__block.wp-block{
+  font-size: 25px !important;
+}
+.about-content p.block-editor-rich-text__editable.block-editor-block-list__block.wp-block{
+  font-size: 14px !important;
+  font-weight: 600;
+}
+.aboutbox-img{
+  margin-bottom: 20px;
+  box-shadow: -12px 12px 0 0 #7fbe4b;
+}
+.about-box p.block-editor-rich-text__editable{
+  color: #999 !important;
+  font-size: 14px !important;
+}
+.about-box .wp-block-image .components-resizable-box__container{
+  display: block !important;
+}

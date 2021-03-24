@@ -1,0 +1,46 @@
+/*sliderbox css*/
+.sliderbox{
+  width: auto;
+  height: auto;
+}
+.wp-block-buttons.alignleft{
+  border: none !important;
+}
+.sliderbox a.wp-block-button__link.has-white-color.has-text-color, .about-content a.wp-block-button__link{
+  padding: 15px 20px;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border:none;
+  color: #fff !important;
+}
+.sliderbox a.wp-block-button__link:hover, .about-content a.wp-block-button__link:hover {
+  background: #000 !important;
+}
+.sliderbox p, .about-content p{
+  font-weight: 600 !important;
+}
+/*about section*/
+.about-content h2:before{
+  content: "";
+  border-left: solid 5px #000;
+  padding-left: 15px;
+}
+.aboutbox-img{
+  margin-bottom: 20px;
+  box-shadow: -12px 12px 0 0 #7fbe4b;
+}
+/*responsive css*/
+@media screen and (max-width: 991px) and (min-width: 767px){
+  .sliderbox .wp-block-columns.alignwide {
+    margin: 0 auto !important;
+  }
+  .sliderbox .wp-block-column.is-vertically-aligned-center {
+    flex-basis: 100% !important;
+  }
+}
+@media screen and (max-width: 720px){
+  .sliderbox p{
+    display: none;
+  }
+}
